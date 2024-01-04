@@ -3,3 +3,4 @@ sentencepiece
 torch
 transformers
 faiss-gpu
+gradio
