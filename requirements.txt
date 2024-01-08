@@ -4,3 +4,4 @@ torch
 transformers
 faiss-gpu
 gradio
+sentence-transformers
