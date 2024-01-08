@@ -12,13 +12,17 @@ This repository shows how you can utilize [SigLIP](https://arxiv.org/abs/2303.15
 
 📚 It contains:
 - A notebook on how to create an embedding index using SigLIP with Hugging Face Transformers and FAISS,
-- An image similarity search application that uses the created index,
-- An application that compares SigLIP and CLIP.
-- An application that compares SigLIP against NLLB-CLIP and CLIP-ViT for multilingual inference.
+- An image similarity search application that uses the created index, ([link to 🤗Space](https://huggingface.co/spaces/merve/draw_to_search_art))
+- An application that compares SigLIP and CLIP ([link to the 🤗Space](https://huggingface.co/spaces/merve/compare_clip_siglip))
+- An application that compares SigLIP against NLLB-CLIP and CLIP-ViT for multilingual inference. ([link to the 🤗Space](https://huggingface.co/spaces/merve/multilingual-zero-shot-image-clf))
+  
+<img width="1014" alt="Screenshot 2024-01-08 at 22 23 44" src="https://github.com/merveenoyan/siglip/assets/53175384/c621f100-2f29-407e-a233-1f74f4919131">
+
+
 
 ## Intended uses & limitations
 
-You can use the raw model for tasks like zero-shot image classification and image-text retrieval. See the [SigLIP checkpoints on Hugging Face Hub](https://huggingface.co/models?search=google/siglip) to look for other versions on a task that interests you.
+You can use the raw SigLIP for tasks like zero-shot image classification and image-text retrieval. See the [SigLIP checkpoints on Hugging Face Hub](https://huggingface.co/models?search=google/siglip) to look for other versions on a task that interests you.
 
 ### How to use with 🤗transformers
 
