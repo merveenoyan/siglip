@@ -1,4 +1,4 @@
-# SigLIP Projects
+# SigLIP Projects 📎📓
 
 [Taken from the Model Card]
 SigLIP is [CLIP](https://huggingface.co/docs/transformers/model_doc/clip), a multimodal model, with a better loss function. The sigmoid loss operates solely on image-text pairs and does not require a global view of the pairwise similarities for normalization. This allows further scaling up the batch size, while also performing better at smaller batch sizes.
