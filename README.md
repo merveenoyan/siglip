@@ -1,13 +1,16 @@
 # SigLIP Projects 📎📓
 
 [Taken from the Model Card]
+
 SigLIP is [CLIP](https://huggingface.co/docs/transformers/model_doc/clip), a multimodal model, with a better loss function. The sigmoid loss operates solely on image-text pairs and does not require a global view of the pairwise similarities for normalization. This allows further scaling up the batch size, while also performing better at smaller batch sizes.
 
 A TL;DR of SigLIP by one of the authors can be found [here](https://twitter.com/giffmana/status/1692641733459267713).
 
+## What is this repository for? 👀
+
 This repository shows how you can utilize [SigLIP](https://arxiv.org/abs/2303.15343) for search in different modalities.
 
-It contains:
+📚 It contains:
 - A notebook on how to create an embedding index using SigLIP with Hugging Face Transformers and FAISS,
 - An image similarity search application that uses the created index,
 - An application that compares SigLIP and CLIP.
