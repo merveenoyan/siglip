@@ -56,6 +56,7 @@ def siglip_detector(image, texts):
     outputs = siglip_model(**inputs)
     logits_per_image = outputs.logits_per_image
     probs = torch.sigmoid(logits_per_image)
+    probs = normalize_tensor(probs)
     
   return probs
 
