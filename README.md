@@ -14,7 +14,6 @@ This repository shows how you can utilize [SigLIP](https://arxiv.org/abs/2303.15
 - A notebook on how to create an embedding index using SigLIP with Hugging Face Transformers and FAISS,
 - An image similarity search application that uses the created index, ([link to 🤗Space](https://huggingface.co/spaces/merve/draw_to_search_art))
 - An application that compares SigLIP and CLIP ([link to the 🤗Space](https://huggingface.co/spaces/merve/compare_clip_siglip))
-- An application that compares SigLIP against NLLB-CLIP and CLIP-ViT for multilingual inference. ([link to the 🤗Space](https://huggingface.co/spaces/merve/multilingual-zero-shot-image-clf))
 - Another notebook to index text embeddings the 🤗datasets-FAISS integration.
   
 <img width="1014" alt="Screenshot 2024-01-08 at 22 23 44" src="https://github.com/merveenoyan/siglip/assets/53175384/c621f100-2f29-407e-a233-1f74f4919131">
