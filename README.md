@@ -4,11 +4,13 @@
 
 SigLIP is [CLIP](https://huggingface.co/docs/transformers/model_doc/clip), a multimodal model, with a better loss function. The sigmoid loss operates solely on image-text pairs and does not require a global view of the pairwise similarities for normalization. This allows further scaling up the batch size, while also performing better at smaller batch sizes.
 
+**Update:** SigLIP 2 is released today, here's [an intuitive explanation](https://huggingface.co/blog/siglip2) about what's new, and Naflex variant.
+
 A TL;DR of SigLIP by one of the authors can be found [here](https://twitter.com/giffmana/status/1692641733459267713).
 
 ## What is this repository for? 👀
 
-This repository shows how you can utilize [SigLIP](https://arxiv.org/abs/2303.15343) for search in different modalities.
+This repository shows how you can utilize [SigLIP](https://arxiv.org/abs/2303.15343) and SigLIP 2 for search in different modalities.
 
 📚 It contains:
 - A notebook on how to create an embedding index using SigLIP with Hugging Face Transformers and FAISS,
@@ -27,7 +29,7 @@ You can use the raw SigLIP for tasks like zero-shot image classification and ima
 
 ### How to use with 🤗transformers
 
-Here is how to use this model to perform zero-shot image classification:
+Here is how to use this model to perform zero-shot image classification. This also supports SigLIP 2 checkpoints. For Naflex variant, use `padding="max_length", max_length=64"`.
 
 ```python
 from PIL import Image
